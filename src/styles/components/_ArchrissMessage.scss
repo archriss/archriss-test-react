@@ -24,4 +24,13 @@
         @include font-size(15px);
         line-height: $base-line-height;
     }
+
+    &--image {
+        height: 120px;
+        width: 100%;
+        margin-bottom: 20px;
+        background-image: url('/images/test.jpg');
+        background-size: cover;
+        background-color: #eee;
+    }
 }

@@ -16,6 +16,7 @@ export default class ArchrissMessage extends Component {
     return (
       <div className='ArchrissMessage'>
         <div className='ArchrissMessage--title'>{title}</div>
+        <div className='ArchrissMessage--image' />
         <div className='ArchrissMessage--message' style={messageStyles}>{message}</div>
       </div>
     )
